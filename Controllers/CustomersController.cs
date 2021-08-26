@@ -13,7 +13,6 @@ namespace CRMAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     [EnableCors("DefaultPolicy")]
     public class CustomersController : ControllerBase
     {
